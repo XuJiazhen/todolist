@@ -8,8 +8,6 @@
 
 ## 概览
 
-![Screen Shot 2018-05-03 at 9.40.46 AM](/Users/xujiazhen/Desktop/Screen Shot 2018-05-03 at 9.40.46 AM.png)
-
 ## 不足之处
 
 - 太丑（CSS能力不足，仿制外观）
