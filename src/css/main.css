@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e6e6e7;
+}
+ul, ol {
+  list-style: none;
+}
+#container {
+  width: 50%;
+  margin: 0 auto;
+}
+#container header {
+  background-color: #f44336;
+  padding: 30px 40px;
+  text-align: center;
+  color: white;
+}
+input {
+  border: 0;
+  width: 70%;
+  height: 45px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+#addBtn {
+  width: 30%;
+  float: right;
+  cursor: pointer;
+}
+#addBtn:hover {
+  background-color: rgb(193, 193, 193);
+}
+#main ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  cursor: pointer;
+  background-color: #CCC;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.2s;
+}
+#main ul li:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+#main ul li:hover {
+  background-color: #ddd;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px 40px 12px 40px;
+  background-image: url(../images/icons/close.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center center;
+  height: 20px;
+}
+.close:hover {
+  background-color: #ff0000;
+}
+.selected {
+  position: absolute;
+  top: 0;
+  right: 80px;
+  padding: 12px 40px 12px 40px;
+  background-image: url(../images/icons/selected.png);
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center center;
+  height: 20px;
+  
+}
+.selected:hover {
+  background-color: #008000;
+}
+.edit {
+  position: absolute;
+  top: 0;
+  right: 160px;
+  padding: 12px 40px 12px 40px;
+  background-image: url(../images/icons/edit.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center center;
+  height: 20px;
+}
+.edit:hover {
+  background-color: #0000ff;
+}
+#main ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+#main ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}

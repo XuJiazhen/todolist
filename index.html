@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="src\css\main.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>ToDoList</h2>
+      <input type="text" placeholder="添加任务..." id="taskInfo">
+      <input type="button" value="添加" id="addBtn">
+    </header>
+
+    <section id="main">
+      <h2>正在进行：<span id="begin">0</span></h2>
+      <ul id="unfinished"></ul>
+      <h2>已经完成：<span id="over">0</span></h2>
+      <ul id="finished"></ul>
+    </section>
+  </div>
+  <script src="src\js\main.js"></script>
+</body>
+</html>
